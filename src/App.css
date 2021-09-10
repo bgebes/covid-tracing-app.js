@@ -1,0 +1,39 @@
+body{
+  background-color: #F1E9DB;
+  color: black;
+}
+
+header{
+  background-color: #5DB7DE;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: #F1E9DB;
+}
+
+.content{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+
+table{
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th, td{
+  border-bottom: 1px solid black;
+  text-align: center;
+  min-width: 30px;
+}
+
+thead tr{
+  background-color: #F39A9D;
+}
+
+tbody tr:hover{
+  background-color: #FFEAEC;
+}
