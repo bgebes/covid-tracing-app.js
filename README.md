@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project getting data from [M-Media-Group](https://github.com/M-Media-Group/Covid-19-API)
 
 ## Available Scripts
 
