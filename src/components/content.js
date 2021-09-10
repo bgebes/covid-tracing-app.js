@@ -10,11 +10,9 @@ class Content extends React.Component {
   }
 
   componentDidMount() {
-    setInterval(() => {
-      getData().then(result => {
-        this.setState({ table: this.fillTheTable(result) })
-      });
-    }, 1000);
+    getData().then(result => {
+      this.setState({ table: this.fillTheTable(result) })
+    });
   }
 
   fillTheTable(data) {
